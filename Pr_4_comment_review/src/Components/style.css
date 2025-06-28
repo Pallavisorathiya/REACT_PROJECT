@@ -1,0 +1,169 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #5b21b6;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-form {
+  max-width: 500px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(12px);
+  margin-top: 2rem;
+  border: 1.3px solid rgba(255, 255, 255, 0.3);
+}
+
+label {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.3rem;
+  display: block;
+  font-size: 1.05rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  color: #111827;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  margin: 0.7rem 0;
+  gap: 0.2rem;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #e5e7eb;
+  transition: transform 0.2s;
+}
+
+.star.selected {
+  color: #fbbf24;
+  transform: scale(1.2);
+}
+.error {
+  color: #ef4444;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(to right, #7c3aed, #ec4899);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(124, 58, 237, 0.25);
+}
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 2rem 0;
+}
+
+.review-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 18px;
+  padding: 1.5rem 1.6rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  max-width: 90vw;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s, box-shadow 0.2s;
+  animation: popIn 0.6s ease-in-out;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 32px rgba(99, 102, 241, 0.2);
+}
+
+.review-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #4f46e5;
+  font-weight: 600;
+  text-align: center;
+}
+
+.review-card p {
+  font-size: 1.02rem;
+  color: #1f2937;
+  margin: 0.3rem 0;
+  line-height: 1.4;
+}
+.review-card span {
+  font-weight: 600;
+  color: #374151;
+}
+.gold-stars {
+  color: #fbbf24;
+  font-size: 1.15rem;
+  text-shadow: 0 1px 3px rgba(251, 191, 36, 0.3);
+}
