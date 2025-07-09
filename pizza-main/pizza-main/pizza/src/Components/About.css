@@ -1,0 +1,263 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.italic {
+  font-family: 'Pacifico', cursive;
+}
+
+/* === ABOUT SECTION === */
+.about-pizzon {
+  padding: 100px 0;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about-pizzon .heading-sub {
+  font-size: 24px;
+  color: #fd9d3e;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 10px;
+}
+
+.about-pizzon .heading-title {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1d1d1d;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.about-pizzon .online-des {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.about-more-z {
+  background-color: #fd9d3e;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+
+.about-more-z:hover {
+  background-color: #fff;
+  color: #fd9d3e;
+  border: 1px solid #fd9d3e;
+}
+
+.about-pizzon-img .pizzon-ab {
+  max-width: 100%;
+  height: auto;
+  padding-left: 40px;
+}
+
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+/* === Responsive Breakpoints === */
+
+/* Extra Small (≤576px) */
+@media (max-width: 576px) {
+  .about-pizzon {
+    padding: 60px 15px;
+    text-align: center;
+  }
+
+  .about-pizzon .heading-title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .about-pizzon .heading-sub {
+    font-size: 20px;
+  }
+
+  .about-pizzon .online-des {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .about-more-z {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .about-pizzon-img {
+    margin-top: 30px;
+  }
+
+  .pizzon-ab {
+    width: 220px;
+  }
+
+  .col-lg-6,
+  .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .row.align-items-center {
+    flex-direction: column !important;
+  }
+}
+
+/* Medium Devices (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about-pizzon .heading-title {
+    font-size: 36px;
+  }
+
+  .about-pizzon .online-des {
+    font-size: 15px;
+  }
+
+  .pizzon-ab {
+    width: 250px;
+  }
+
+  .row.align-items-center {
+    flex-direction: column !important;
+  }
+
+  .col-lg-6,
+  .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+/* Tablets (768px - 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about-pizzon {
+    text-align: left;
+  }
+
+  .about-pizzon .heading-title {
+    font-size: 40px;
+  }
+
+  .about-pizzon .online-des {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .about-more-z {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+
+  .about-pizzon-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .pizzon-ab {
+    width: 300px;
+  }
+
+  .row.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row !important;
+  }
+
+  .col-lg-6,
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Large (≥992px) */
+@media (min-width: 992px) {
+  .about-pizzon {
+    text-align: left;
+  }
+
+  .about-pizzon .heading-title {
+    font-size: 64px;
+  }
+
+  .about-pizzon .heading-sub {
+    font-size: 28px;
+  }
+
+  .about-pizzon .online-des {
+    font-size: 17px;
+    padding: 0;
+  }
+
+  .about-more-z {
+    font-size: 20px;
+    padding: 12px 35px;
+  }
+
+  .about-pizzon-img {
+    margin-top: 0;
+  }
+
+  .pizzon-ab {
+    width: 400px;
+    max-height: 580px;
+  }
+
+  .row.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .col-lg-6,
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* AOS Custom Animations */
+[data-aos="custom-left"] {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1.5s ease-in-out;
+}
+
+[data-aos="custom-left"].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+[data-aos="custom-right"] {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1.5s ease-in-out;
+}
+
+[data-aos="custom-right"].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}

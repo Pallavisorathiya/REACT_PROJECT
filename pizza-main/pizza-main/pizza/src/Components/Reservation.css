@@ -1,0 +1,214 @@
+.reservation-section {
+  background-color: #fff;
+}
+
+.reservation-left {
+  max-width: 500px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* === Title Block === */
+.subtitle {
+  font-size: 35px;
+  color: #fd9d3e;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #121619;
+  margin-bottom: 30px;
+}
+
+/* === Phone Box === */
+.phone-box {
+  display: flex;
+  align-items: center;
+  background-color: #121619;
+  border: 10px solid #fd9d3e;
+  padding: 15px;
+  gap: 20px;
+  border-radius: 5px;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.phone-box:hover {
+  background-color: #fff;
+}
+
+.phone-box:hover .phone-icon img,
+.phone-box:hover .icon img {
+  filter: brightness(0);
+}
+
+.phone-box:hover .phone-number,
+.phone-box:hover .number {
+  color: #121619;
+}
+
+.phone-icon img,
+.phone-box .icon img {
+  width: 45px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+
+.phone-number,
+.phone-box .number {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 3px;
+  line-height: 1;
+  padding: 0;
+}
+
+/* === Form === */
+.reservation-form {
+  margin-top: 40px;
+}
+
+.form-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #121619;
+}
+
+.form-control {
+  font-size: 14px;
+  padding: 15px 20px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  color: #999;
+  background-color: #fff;
+}
+
+.form-control::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.book-btn {
+  background-color: #121619;
+  color: #fff;
+  font-weight: 700;
+  padding: 17px 41px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 1px solid #121619;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0 auto;
+}
+
+.book-btn:hover {
+  background-color: #fff;
+  color: #121619;
+  border: 1px solid #121619;
+}
+
+/* === Scroll Animation === */
+.fade-left, .fade-right {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: all 0.8s ease-in-out;
+  will-change: opacity, transform;
+}
+.fade-right {
+  transform: translateX(60px);
+}
+.fade-left.in-view, .fade-right.in-view {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* === Responsive (≤768px same as ≤576px) === */
+@media (max-width: 768px) {
+  .reservation-section .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reservation-left,
+  .reservation-form {
+    padding: 0 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .phone-box {
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px;
+    font-size: 24px;
+    margin-top: 20px;
+    min-width: unset;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .phone-box .icon img {
+    width: 40px;
+  }
+
+  .phone-box .number {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .book-btn {
+    font-size: 14px;
+    padding: 12px 28px;
+}
+}

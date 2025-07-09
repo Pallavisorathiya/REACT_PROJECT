@@ -1,0 +1,270 @@
+/* === Section Wrapper Animation === */
+.chef {
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-in-out;
+}
+
+.chef.animate-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* === Background Styling === */
+.bg {
+  position: relative;
+  z-index: 1;
+  padding: 20px 0 60px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+/* === Section Title === */
+.headding-part {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #f78f21;
+  font-size: 28px;
+  font-family: 'Pacifico', cursive;
+}
+
+.headding-part h2 {
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/* === Carousel Wrapper & Arrows === */
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-arrow {
+  background: transparent;
+  border: none;
+  color: #f78f21;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+
+.carousel-arrow.left {
+  left: -20px;
+}
+
+.carousel-arrow.right {
+  right: -20px;
+}
+
+/* === Chef Cards Wrapper === */
+.chef-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* === Individual Card Wrapper === */
+.chef-outer {
+  flex: 0 0 auto;
+  width: 247px;
+  max-width: 247px;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Chef Card === */
+.chef-box {
+  background: #fff;
+  color: #000;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 247px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* === Image Wrapper === */
+.chef-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.chef-img {
+  width: 247px;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+  background-position: center;
+}
+
+.chef-hover::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -75%;
+  z-index: 2;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+  transform: skewX(-25deg);
+}
+
+.chef-box:hover .chef-img {
+  transform: scale(1.05);
+}
+
+.chef-box:hover .chef-hover::before {
+  animation: shine .75s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+/* === Text Info === */
+.chef-name {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 15px;
+  color: #1d1d1d;
+}
+
+.chef-box:hover .chef-name {
+  color: #fd9d3e;
+}
+
+.chef-ct {
+  font-size: 14px;
+  color: #999;
+}
+
+.chef-box:hover .chef-ct {
+  color: #fd9d3e;
+}
+
+/* === Responsive Layout for Chef Cards === */
+
+/* For 992px and up – 4 cards per row */
+@media (min-width: 992px) {
+  .chef-cards {
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .chef-outer {
+    width: 22%;
+    max-width: 247px;
+  }
+}
+
+/* For 768px to 991px – 3 cards per row */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .chef-cards {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .chef-outer {
+    width: 30%;
+    max-width: 247px;
+  }
+}
+
+/* For 576px to 767px – 1 card centered */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .chef-cards {
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .chef-outer {
+    width: 70%;
+    max-width: 247px;
+  }
+}
+
+/* Below 576px – Horizontal scroll with 1 card */
+@media (max-width: 575.98px) {
+  .chef-cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding: 0 10px;
+    justify-content: flex-start;
+  }
+
+  .chef-outer {
+    flex: 0 0 auto;
+    width: 90%;
+    max-width: 260px;
+    scroll-snap-align: start;
+  }
+
+  .carousel-arrow {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    padding: 0 10px;
+  }
+
+  .chef-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin: 0 auto;
+    width: max-content;
+    align-items: stretch;
+  }
+
+  .chef-outer {
+    flex: 0 0 auto;
+    width: 247px;
+    /* 247 * 3 + 2 * 20px gap ≈ 781px (perfect for tablets) */
+    max-width: 247px;
+    min-width: 247px;
+    /* Fix card size */
+  }
+
+  .chef-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+  }
+}

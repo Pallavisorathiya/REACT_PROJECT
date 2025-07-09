@@ -1,0 +1,361 @@
+ .customer {
+   background: #121619;
+   padding: 100px 0;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .customer-top-bg,
+ .customer-bottom-bg {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   z-index: 0;
+   line-height: 0;
+ }
+
+ .customer-top-bg {
+   top: -45px;
+ }
+
+ .customer-bottom-bg {
+   bottom: 0;
+
+ }
+
+ .customer-top-bg img,
+ .customer-bottom-bg img {
+   width: 100%;
+   display: block;
+ }
+
+ .customer-inner {
+   position: relative;
+   z-index: 1;
+ }
+
+ .headding-part {
+   padding: 20px 20px 10px;
+   text-align: center;
+
+ }
+
+ .headding-title {
+   color: #fff;
+   font-size: 0px;
+   font-weight: bolder;
+   margin: 0;
+   margin-bottom: 0px;
+   line-height: 70px;
+   letter-spacing: 2px;
+ }
+
+ .headding-sub {
+   font-size: 30px;
+   color: #fd9d3e;
+   font-family: 'Pacifico', cursive;
+   margin-bottom: 15px;
+ }
+
+ /* Review item layout */
+ .customer {
+   background: #121619;
+   padding: 80px 0;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .customer-detail {
+   display: flex !important;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   padding: 30px 0;
+   min-height: 300px;
+ }
+
+ .customer-img {
+   width: 180px;
+   text-align: center;
+ }
+
+ .customer-img-in {
+   width: 135px;
+   margin: auto;
+ }
+
+ .customer-image {
+   width: 135px;
+   height: 135px;
+   border: 5px solid #fd9d3e;
+   border-radius: 50%;
+   object-fit: cover;
+ }
+
+ .customer-name {
+   font-size: 20px;
+   color: #fd9d3e;
+   text-transform: uppercase;
+   margin-top: 10px;
+   font-weight: bold;
+ }
+
+ .customer-reviews {
+   background: #fff;
+   width: calc(100% - 180px);
+   max-width: 1000px;
+   padding: 40px 50px;
+   position: relative;
+ }
+
+ .customer-reviews::before {
+   content: "";
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 25px 25px 25px 0;
+   border-color: transparent #fff transparent transparent;
+   position: absolute;
+   left: -25px;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+
+ .review-cus {
+   font-size: 18px;
+   color: #999;
+   font-style: italic;
+   line-height: 1.6;
+   margin-bottom: 15px;
+ }
+
+ .post-name {
+   color: #fd9d3e;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 16px;
+   font-family: 'PT Sans Narrow', sans-serif
+ }
+
+ .post-name span {
+   text-transform: lowercase;
+   font-size: 12px;
+   font-weight: normal;
+ }
+
+ /* Slick Dots Styling */
+ .slick-dots {
+   text-align: center;
+   margin-top: 30px;
+   padding: 0;
+ }
+
+ .slick-dots li {
+   display: inline-block;
+   margin: 0 6px;
+ }
+
+ .slick-dots li button {
+   font-size: 0;
+   width: 12px;
+   height: 12px;
+   border: 2px solid #fd9d3e;
+   border-radius: 50%;
+   background: transparent;
+   transition: all 0.3s ease;
+
+ }
+
+ .slick-dots li.slick-active button {
+   background: #fd9d3e;
+ }
+
+ .slick-slider {
+   height: auto;
+ }
+
+ /* Mobile Devices - up to 576px */
+ @media (max-width: 576px) {
+   .headding-title {
+     font-size: 30px;
+     line-height: 1.3;
+     padding-bottom: 5px;
+     word-break: break-word;
+     white-space: normal;
+     text-align: center;
+   }
+
+   .headding-sub {
+     font-size: 18px;
+     margin-bottom: 8px;
+     white-space: normal;
+     text-align: center;
+   }
+
+   .customer-detail {
+     flex-direction: column;
+     gap: 20px;
+     padding: 20px 10px;
+   }
+
+   .customer-img {
+     width: 100%;
+     text-align: center;
+   }
+
+   .customer-img-in {
+     margin: auto;
+   }
+
+   .customer-top-bg {
+     top: -20px;
+   }
+
+   .customer-reviews {
+     width: 100%;
+     padding: 25px 20px;
+   }
+
+   .customer-reviews::before {
+     display: none;
+   }
+
+   .review-cus {
+     font-size: 15px;
+     text-align: center;
+   }
+
+   .post-name {
+     font-size: 14px;
+     display: block;
+     text-align: center;
+   }
+ }
+
+ /* === Small Devices (up to 576px) === */
+ @media (max-width: 576px) {
+   .customer-detail {
+     flex-direction: column;
+     text-align: center;
+     padding: 20px 10px;
+   }
+
+   .customer-img {
+     width: 100% !important;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 15px;
+   }
+
+   .customer-img-in {
+     width: auto;
+   }
+
+   .customer-reviews {
+     width: 100% !important;
+     padding: 25px 20px;
+   }
+
+   .customer-reviews::before {
+     display: none;
+   }
+
+   .review-cus,
+   .post-name {
+     text-align: center;
+   }
+ }
+
+ /* === Medium Devices (Bootstrap col-md*) - 577px to 768px === */
+ @media (min-width: 577px) and (max-width: 768px) {
+   .customer-detail {
+     flex-direction: row;
+     align-items: center;
+     gap: 20px;
+     padding: 30px 20px;
+   }
+
+   .col-md-6 .customer-img {
+     width: 180px;
+   }
+
+   .col-md-6 .customer-reviews {
+     width: calc(100% - 180px);
+     padding: 35px 30px;
+   }
+
+   .customer-reviews::before {
+     display: block;
+   }
+
+   .review-cus {
+     text-align: left;
+   }
+
+   .post-name {
+     text-align: left;
+   }
+
+ }
+
+ /* === Tablets & Small Laptops (Bootstrap col-md*) - 769px to 991px === */
+ @media (min-width: 769px) and (max-width: 991px) {
+   .col-md-6 .customer-detail {
+     flex-direction: row;
+     align-items: center;
+     gap: 30px;
+     padding: 30px;
+   }
+
+   .col-md-6 .customer-img {
+     width: 180px;
+   }
+
+   .col-md-6 .customer-reviews {
+     width: calc(100% - 180px);
+     padding: 35px;
+   }
+
+   .customer-reviews::before {
+     border-width: 20px 20px 20px 0;
+     left: -20px;
+   }
+ }
+
+ /* === Large Devices (Bootstrap col-lg*) - 992px and up === */
+ @media (min-width: 992px) {
+   .col-lg-6 .customer-detail {
+     flex-direction: row;
+     gap: 30px;
+     align-items: center;
+     padding: 40px 0;
+   }
+
+   .col-lg-6 .customer-img {
+     width: 180px;
+   }
+
+   .col-lg-6 .customer-reviews {
+     width: calc(100% - 180px);
+     padding: 40px 50px;
+   }
+
+   .customer-reviews::before {
+     display: block;
+     border-width: 25px 25px 25px 0;
+     left: -25px;
+   }
+ }
+
+ /* === Fade-up Animation (Bottom to Top) === */
+ .fade-up {
+   opacity: 0;
+   transform: translateY(60px);
+   transition: all 0.8s ease-out;
+   will-change: opacity, transform;
+ }
+
+ .fade-up.in-view {
+   opacity: 1;
+   transform: translateY(0);
+ }

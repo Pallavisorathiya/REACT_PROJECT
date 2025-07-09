@@ -1,0 +1,259 @@
+.order-button {
+  background-color: #91b842;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 13px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar {
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.custom-navbar.scrolled {
+  background-color: #121619;
+}
+
+.index-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.index-header .nav-link {
+  color: white !important;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.index-header .nav-link:hover {
+  color: #e4964d !important;
+  text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 16px;
+}
+
+.order-button:hover {
+  background-color: #fd9d3eb3;
+}
+
+.nav-link {
+  transition: background-color 0.3s ease;
+
+}
+
+.nav-link:hover {
+  color: #eb974b;
+}
+
+.header-icon {
+  font-size: 18px;
+  color: rgb(209, 132, 55);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header-icon:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.index-header {
+  font-family: PT Sans Narrow, sans-serif;
+  font-size: 16px;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+  border-radius: 0;
+  border-top: 3px solid #e67700;
+  padding: 10px 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+  color: #000000;
+  padding: 8px 20px;
+  transition: transition 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #e4964d;
+}
+
+.nav-link-custom .dropdown-toggle {
+  color: white !important;
+}
+
+.nav-link-custom .dropdown-toggle:hover {
+  color: #e4964d !important;
+}
+
+.nav-link-custom .dropdown-toggle {
+  text-decoration: none;
+}
+
+.nav-link-custom .dropdown-toggle::after {
+  display: none !important;
+}
+
+.index-header .nav-link {
+  color: white !important;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.index-header .nav-link:hover {
+  color: #e4964d !important;
+  text-decoration: none;
+}
+
+.logo-img {
+  max-width: 150px;
+  height: auto;
+}
+
+@media (max-width: 575.98px) {
+  .logo-img {
+    max-width: 120px;
+  }
+}
+
+/* === General Navbar Styling === */
+.custom-navbar {
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.custom-navbar.scrolled {
+  background-color: #121619;
+}
+
+.logo-img {
+  max-width: 150px;
+  height: auto;
+}
+
+@media (max-width: 575.98px) {
+  .logo-img {
+    max-width: 120px;
+  }
+}
+
+/* === Header Links === */
+.index-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.index-header .nav-link {
+  color: white !important;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.index-header .nav-link:hover {
+  color: #e4964d !important;
+  text-decoration: none;
+}
+
+/* === Dropdowns === */
+.dropdown-menu {
+  background-color: #ffffff;
+  border-radius: 0;
+  border-top: 3px solid #e67700;
+  padding: 10px 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+  color: #000000;
+  padding: 8px 20px;
+  transition: 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #e4964d;
+}
+
+.nav-link-custom .dropdown-toggle {
+  background-color: transparent !important;
+  color: white !important;
+  text-decoration: none;
+}
+
+.nav-link-custom .dropdown-toggle:hover {
+  color: #e4964d !important;
+}
+
+.nav-link-custom .dropdown-toggle::after {
+  display: none !important;
+}
+
+/* === Buttons & Icons === */
+.order-button {
+  background-color: #91b842;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 13px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #fd9d3eb3;
+}
+
+.header-icon {
+  font-size: 18px;
+  color: rgb(209, 132, 55);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header-icon:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+/* Responsive background for opened menu */
+/* ✅ Fix horizontal scroll issue on mobile */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #fd9d3e !important;
+    z-index: 10;
+
+  }
+
+  .navbar-collapse .dropdown-menu {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+
+  .navbar-collapse .dropdown-item {
+    color: #000;
+  }
+
+  .navbar-collapse .dropdown-item:hover {
+    color: #e67700;
+  }
+}
