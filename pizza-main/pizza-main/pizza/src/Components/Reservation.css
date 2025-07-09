@@ -212,3 +212,79 @@
     padding: 12px 28px;
 }
 }
+@media (max-width: 768px) {
+  .reservation-section {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    display: flex;
+    justify-content: center;
+    padding: 0 15px; /* Add some padding so content doesn't touch the edge */
+  }
+
+  .reservation-section .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .reservation-left,
+  .reservation-form {
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .phone-box {
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px;
+    font-size: 24px;
+    margin-top: 20px;
+    width: 100%;
+    gap: 16px;
+    box-sizing: border-box;
+  }
+
+  .phone-box .icon img {
+    width: 40px;
+  }
+
+  .phone-box .number {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .book-btn {
+    font-size: 14px;
+    padding: 12px 28px;
+  }
+}
