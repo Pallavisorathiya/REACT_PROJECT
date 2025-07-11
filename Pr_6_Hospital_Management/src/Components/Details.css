@@ -1,0 +1,59 @@
+.title{
+    background-image: url(../assets/background.webp);
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+.title h2{
+    color: #0c1839;
+}
+.form-title {
+    color: #354f8e;
+}
+
+.header-btn {
+  background: linear-gradient(to right, #354f8e 50%, #e23333aa 50%);
+  background-size: 200% 100%;
+  border: none;
+  border-radius: 50px !important;
+  padding: 15px;
+  background-position: left bottom;
+  color: white;
+  border: none;
+  transition: background-position 0.4s ease-out;
+  border-radius: 8px;
+}
+
+.header-btn:hover {
+  background-position: right bottom;
+  color: white;
+}
+.submit-btn{
+    background-color: #354f8e;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+.cancel-btn{
+     border: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+.card-name{
+    color: #354f8e !important;
+    font-size: 30px !important;
+}
+.edit-btn ,
+.deleate-btn{
+    background-color: transparent !important;
+    color: #354f8e;
+    border: none;
+    transition: 0.2 ease;
+     cursor: pointer;
+}
+.edit-btn :hover,
+.deleate-btn:hover{
+    color: #e23333aa;
+}
+
