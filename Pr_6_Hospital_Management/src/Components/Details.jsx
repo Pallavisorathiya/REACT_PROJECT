@@ -15,7 +15,7 @@ const Details = ({ patients, onEdit, onDelete }) => {
         {patients.map(patient => (
           <Col key={patient.id}>
             <Card className="h-100 shadow-sm border-0">
-              <Card.Body>
+              <Card.Body className="card">
                 
                 <Card.Title className=" card-name  fw-bold">{patient.fullName}</Card.Title>
                  <Card.Text><strong>Dob:</strong> {patient.dob}</Card.Text>
@@ -28,8 +28,10 @@ const Details = ({ patients, onEdit, onDelete }) => {
                 <Card.Text><strong>Admit Date:</strong> {patient.admitDate}</Card.Text>
                 <Card.Text><strong>Ward:</strong> {patient.wardNo}</Card.Text>
 
-                <Button  className=" edit-btn me-2" onClick={() => onEdit(patient)}> <MdEdit size={18} /></Button>
+          
+                <Button  className=" edit-btn me-2 " onClick={() => onEdit(patient)}> <MdEdit size={18} /></Button>
                 <Button className="deleate-btn "  onClick={() => onDelete(patient.id)}> <RiDeleteBin5Fill size={18} /></Button>
+            
               </Card.Body>
             </Card>
           </Col>

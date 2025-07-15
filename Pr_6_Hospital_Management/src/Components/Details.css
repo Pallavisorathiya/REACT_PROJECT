@@ -56,4 +56,6 @@
 .deleate-btn:hover{
     color: #e23333aa;
 }
-
+.card{
+    background-color: white;
+}
