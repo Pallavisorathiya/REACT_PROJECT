@@ -1,0 +1,404 @@
+body {
+  background-color: #f0cad9!important;
+}
+.custom-header-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.custom-navbar {
+  padding: 0;
+  width: 100%;
+}
+
+.custom-navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}.custom-navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px 30px;
+}
+.nykaa-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.nykaa-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
+.add-product-link {
+   background-color: #fc2779;     
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-link:hover {
+  background-color: #fc2779;
+  transform: translateY(-2px);
+}
+body {
+  background-color: #f4b5d3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-product-wrapper {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.add-product-container h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #fc2779;
+  margin-bottom: 30px;
+}
+
+.add-product-container .form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.add-product-container .form-control,
+.add-product-container .form-select {
+  width: 100%;
+  border: 1px solid #f5c6db;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.add-btn {
+  width: 100%;
+  background-color: #fc2779 !important;
+   border: 1px solid #f5c6db !important;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.add-btn:hover {
+  background-color: #fc2779 !important;
+}
+
+.add-product-container:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px !important;
+  margin-top: 10px;
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c2185b; 
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.badge-warning {
+  background-color: #ffb6c1 !important;
+  color: #880e4f !important;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.btn-warning {
+  background: linear-gradient(to right, #f06292, #ec407a);
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 6px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background: linear-gradient(to right, #ec407a, #f06292);
+}
+
+.btn-danger {
+  background: linear-gradient(to right, #ff1744, #ff5252);
+  border: none;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(to right, #ff5252, #ff1744);
+}
+.edit-product-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.edit-product-container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 650px;
+  transition: all 0.3s ease-in-out;
+}
+
+.edit-product-container:hover {
+   transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+.edit-product-container h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #fc2779;
+  margin-bottom: 30px;
+}
+
+.edit-product-container .form-control,
+.edit-product-container .form-select {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #fc2779;
+  border-radius: 8px;
+}
+
+.edit-product-container button[type="submit"] {
+  background-color: #fc2779;
+  border: none;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-product-container button[type="submit"]:hover {
+  background-color: #fc2779;
+}
+
+.search-sort-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-sort-controls input,
+.search-sort-controls select {
+  padding: 8px 12px;
+  border: 1px solid #fc2779;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  width: 260px;
+}
+
+.search-sort-controls select {
+  background-color: #fff;
+}
+
+.search-sort-controls button {
+  padding: 8px 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px !important;
+  margin-top: 10px;
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.btn-warning {
+  background: linear-gradient(to right, #f06292, #ec407a);
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 6px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background: linear-gradient(to right, #ec407a, #f06292);
+}
+
+.btn-danger {
+  background: linear-gradient(to right, #ff1744, #ff5252);
+  border: none;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(to right, #ff5252, #ff1744);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+}
+
+.pagination .page-item {
+  display: inline-block;
+}
+
+.pagination .page-link {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background-color: #f8bbd0;
+  color: #880e4f;
+  border: none;
+  font-weight: 500;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.pagination .page-link:hover {
+  background-color: #f06292;
+  color: white;
+}
+
+.pagination .active .page-link {
+  background-color: #c2185b;
+  color: white;
+}
+.custom-card {
+  
+  width: 18rem;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.custom-btn {
+ 
+  background-color: rgb(252, 187, 212) !important;
+  color: rgb(136, 14, 79) !important;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+
