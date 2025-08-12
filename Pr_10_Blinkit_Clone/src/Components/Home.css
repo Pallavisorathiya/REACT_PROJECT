@@ -1,0 +1,45 @@
+.short-button{
+    background-color: #009900;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.short-button:hover {
+    background-color: #007700;
+}
+.pagination {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .page-item {
+  border-radius: 8px;
+  overflow: hidden;
+   border: 1px solid #009900aa;
+}
+.pagination .page-link {
+  color: #009900aa;
+  border: 1px solid #009900aa;
+  padding: 6px 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.pagination .page-link:hover {
+  background-color: #009900aa;
+  color: white;
+  border-color: #009900aa;
+  box-shadow: 0px 2px 5px rgba(0, 153, 0, 0.3);
+}
+.pagination .active .page-link {
+  background-color: #009900aa;
+  color: white;
+  border-color: #009900aa;
+  font-weight: bold;
+  box-shadow: 0px 3px 6px rgba(0, 153, 0, 0.4);
+}
+.pagination .page-item.disabled .page-link {
+  color: #ccc;
+  border-color: #ccc;
+  background-color: #f8f8f8;
+  border: 1px solid #009900aa ;
+}

@@ -14,6 +14,7 @@ const AddProduct = () => {
     price: "",
     category: "",
     image: "",
+    
   };
 
   const [inputForm, setInputForm] = useState(intialState);
