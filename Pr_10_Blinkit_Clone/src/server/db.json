@@ -161,6 +161,60 @@
       "price": "322",
       "category": "Home & Kitchen",
       "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/7774d135-8bed-4ef0-ae36-97a48d3863a0.png"
+    },
+    {
+      "id": "303481",
+      "title": "Kissan Fresh Tomato Ketchup",
+      "amount": "1.1 kg",
+      "desc": "Home / Tomato & Chilli Ketchup / Kissan Fresh Tomato Ketchup\nType\nTomato Ketchup",
+      "price": "106",
+      "category": "Home & Kitchen",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/ae5c2abf-e3c9-4cbc-9cc1-f10fbf709a09.png"
+    },
+    {
+      "id": "010666",
+      "title": "Nutella Hazelnut Chocolate Spread with Cocoa - 350 g",
+      "amount": "350 g",
+      "desc": "Home / Jam & Spreads / Nutella Hazelnut Chocolate Spread with Cocoa - 350 g\nFlavour\nHazelnut & Cocoa\n",
+      "price": "399",
+      "category": "Home & Kitchen",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/8f4455e0-b2de-4563-920e-57ef5dd5ae92.png"
+    },
+    {
+      "id": "325916",
+      "title": "Dot & Key 72 HR Hydrating + Probiotics Moisturizing Gel",
+      "amount": "60 ml",
+      "desc": "Home / Face & Body Moisturizers / Dot & Key 72 HR Hydrating + Probiotics Moisturizing Gel\n",
+      "price": "436",
+      "category": "Personal Care",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/b98275b4-323e-45d6-a6ee-54b5034eb0f7.png"
+    },
+    {
+      "id": "601389",
+      "title": "Cozy Nose Better Breathe Nasal Strips",
+      "amount": "1 pack (10 pieces)",
+      "desc": "Home / Healthcare Devices / Cozy Nose Better Breathe Nasal Strips\nUnit\n1 pack (10 pieces)",
+      "price": "388",
+      "category": "Medicines & Wellness",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/a97920c9-169a-4b9d-9944-e6da4763371e.png"
+    },
+    {
+      "id": "216150",
+      "title": "Button Mushroom",
+      "amount": "180 g - 200 g, (180-200) g",
+      "desc": "Home / Fresh Vegetables / Button Mushroom\nUnit\n180 g - 200 g",
+      "price": "56",
+      "category": "Fruits & Vegetables",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9bc0b3fd-3aac-4f5f-a8f7-0c0b63cef1bb.png"
+    },
+    {
+      "id": "161256",
+      "title": "Sensational Aroma Gift Set (Lavender) by Ekam",
+      "amount": "1 pack (5 pieces)",
+      "desc": "Home / Home Decor / Sensational Aroma Gift Set (Lavender) by Ekam\nBox Contents\nScented Candle x 1\nLavender & Sandalwood Potpourri - 100 g\nLavender Reed Diffuser - 60 ml\nLavender & Sandalwood Potpourri Spray - 8 ml\nReed Sticks x 6",
+      "price": "1499",
+      "category": "Household Needs",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/ce8f4d1a-2a67-4c6d-bdd4-1c5d1411d982.png"
     }
   ]
 }

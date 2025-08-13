@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// Action creators
 export const loading = () => ({ type: "LOADING" });
 
 export const addProductSUC = () => ({ type: "ADD_PRODUCT_SUC" });
@@ -13,8 +12,6 @@ export const getProduct = (data) => ({ type: "GET_PRODUCT", payload: data });
 
 export const updateProduct = () => ({ type: "UPDATE_PRODUCT" });
 
-// Async actions
-// Get all products
 export const getAllProductAsync = () => {
     return async (dispatch) => {
         dispatch(loading());
@@ -28,14 +25,13 @@ export const getAllProductAsync = () => {
     };
 };
 
-// Add new product
 export const addProductAsync = (data) => {
     return async (dispatch) => {
         dispatch(loading());
         try {
             await axios.post('http://localhost:3000/products', data);
             dispatch(addProductSUC());
-            dispatch(getAllProductAsync()); // ✅ refresh list
+            dispatch(getAllProductAsync()); 
         } catch (error) {
             console.error(error);
             dispatch(addProductRej(error.message));
@@ -43,13 +39,12 @@ export const addProductAsync = (data) => {
     };
 };
 
-// Delete product
 export const deleteProductAsync = (id) => {
     return async (dispatch) => {
         dispatch(loading());
         try {
             await axios.delete(`http://localhost:3000/products/${id}`);
-            dispatch(getAllProductAsync()); // ✅ refresh list
+            dispatch(getAllProductAsync());  
         } catch (error) {
             console.error(error);
             dispatch(addProductRej(error.message));
@@ -57,7 +52,6 @@ export const deleteProductAsync = (id) => {
     };
 };
 
-// Get single product
 export const getProductAsync = (id) => {
     return async (dispatch) => {
         dispatch(loading());
@@ -71,21 +65,20 @@ export const getProductAsync = (id) => {
     };
 };
 
-// Update product
 export const updateProductAsync = (data) => {
     return async (dispatch) => {
         dispatch(loading());
         try {
             await axios.put(`http://localhost:3000/products/${data.id}`, data);
             dispatch(updateProduct());
-            dispatch(getAllProductAsync()); // ✅ refresh list
+            dispatch(getAllProductAsync());
         } catch (error) {
             console.error(error);
             dispatch(addProductRej(error.message));
         }
     };
 };
-// Add this at the end or anywhere in the file
+
 
 export const searchProduct = (query) => {
   return {
