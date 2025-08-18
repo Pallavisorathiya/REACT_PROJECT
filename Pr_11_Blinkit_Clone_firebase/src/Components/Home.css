@@ -1,3 +1,16 @@
+/* Title */
+.title {
+  font-size: 13px;
+  height: 36px;
+  margin-bottom: 4px;   /* 👈 thodi jagya add kari */
+}
+
+/* Amount */
+.amount {
+  font-size: 12px;
+  color: #555;
+}
+
 .short-button{
     background-color: #009900;
     border: none;
@@ -42,4 +55,71 @@
   border-color: #ccc;
   background-color: #f8f8f8;
   border: 1px solid #009900aa ;
+}
+/* Card hover animation */
+.product-card {
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  height: 340px;
+  box-shadow: #0000000a 2px 2px 8px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Product image */
+.product-img {
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Title + Amount + Price */
+.title {
+  font-size: 13px;
+  height: 36px;
+}
+.amount {
+  font-size: 12px;
+}
+.price {
+  font-size: 13px;
+}
+
+/* Time Tag */
+.time-tag {
+  font-size: 9px;
+  background-color: #d1d1d1;
+  width: 57px;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+/* Buttons hidden initially */
+.action-buttons {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/* Show buttons on hover */
+.product-card:hover .action-buttons {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Button hover effect */
+.action-buttons .btn {
+  transition: 0.2s;
+}
+.action-buttons .btn:hover {
+  transform: scale(1.1);
 }

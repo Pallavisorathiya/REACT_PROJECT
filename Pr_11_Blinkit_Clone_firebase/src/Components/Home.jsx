@@ -16,7 +16,9 @@ import "./Home.css";
 
 const Home = () => {
   const dispatch = useDispatch();
-  const { products, isLoading, isError, isSearchActive } = useSelector((state) => state.productReducer);
+  const { products, isLoading, isError, isSearchActive } = useSelector(
+    (state) => state.productReducer
+  );
   const navigate = useNavigate();
 
   const [search, setSearch] = useState("");
@@ -100,26 +102,51 @@ const Home = () => {
           <StaticElem />
           <Categories />
 
+          {/* 🔍 Search + Sort */}
           <div className="d-flex flex-wrap gap-2 my-3 px-3 align-items-center justify-content-between">
-            <Form className="flex-grow-1 me-1 ms-4"
-              onSubmit={(e) => { e.preventDefault();handleSearch();}}style={{ maxWidth: "600px" }}>
+            <Form
+              className="flex-grow-1 me-1 ms-4"
+              onSubmit={(e) => {
+                e.preventDefault();
+                handleSearch();
+              }}
+              style={{ maxWidth: "600px" }}
+            >
               <InputGroup style={{ background: "#f8f8f8" }}>
-                <InputGroup.Text className="bg-transparent border-0"onClick={handleSearch}style={{ cursor: "pointer" }}>
+                <InputGroup.Text
+                  className="bg-transparent border-0"
+                  onClick={handleSearch}
+                  style={{ cursor: "pointer" }}
+                >
                   <IoSearch className="fs-5 search" />
                 </InputGroup.Text>
                 <Form.Control
                   type="text"
-                  placeholder="Search by title, price or category"className="border-0 ps-0"style={{ background: "#f8f8f8" }}value={search}onChange={(e) => setSearch(e.target.value)}/>
+                  placeholder="Search by title, price or category"
+                  className="border-0 ps-0"
+                  style={{ background: "#f8f8f8" }}
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                />
                 {search && (
                   <InputGroup.Text
-                    className="bg-transparent border-0"onClick={handleClear}style={{ cursor: "pointer" }}>
-                  <IoCloseCircle className="fs-5 text-secondary clear" />
-                  </InputGroup.Text>)}</InputGroup>
+                    className="bg-transparent border-0"
+                    onClick={handleClear}
+                    style={{ cursor: "pointer" }}
+                  >
+                    <IoCloseCircle className="fs-5 text-secondary clear" />
+                  </InputGroup.Text>
+                )}
+              </InputGroup>
             </Form>
 
             <div className="d-flex align-items-center gap-2 ms-4">
-              <select onChange={(e) => setSortData(e.target.value)}
-                defaultValue=""className="form-select" style={{ maxWidth: "200px" }}>
+              <select
+                onChange={(e) => setSortData(e.target.value)}
+                defaultValue=""
+                className="form-select"
+                style={{ maxWidth: "200px" }}
+              >
                 <option value="">Select Sorting</option>
                 <option value="title,asc">Name - A to Z</option>
                 <option value="title,desc">Name - Z to A</option>
@@ -128,48 +155,70 @@ const Home = () => {
                 <option value="category,asc">Category - A to Z</option>
                 <option value="category,desc">Category - Z to A</option>
               </select>
-              <Button className="short-button" onClick={handleSorting}>Sort</Button>
+              <Button className="short-button" onClick={handleSorting}>
+                Sort
+              </Button>
             </div>
           </div>
 
-         <div className="row g-3 mt-3 w-100 mb-3 px-3">
+          {/* 🛒 Product Cards */}
+          <div className="row g-3 mt-3 w-100 mb-3 px-3">
             {currentItems.length > 0 ? (
               currentItems.map((prod) => (
-                <div className="col-6 col-sm-4 col-md-3 col-lg-2" key={prod.id}>
-                  <Card
-                    style={{
-                      borderRadius: "10px",
-                      padding: "16px",
-                      border: "1px solid #e0e0e0",
-                      height: "340px",
-                      boxShadow: "#0000000a 2px 2px 8px ",}}>
-                    <Card.Img variant="top"src={prod.image}
-                      style={{
-                        height: "120px",
-                        objectFit: "contain",
-                        marginBottom: "10px", }}alt="img"/>
-                    <div className="text-muted d-flex mb-2 fw-bold rounded-2"
-                      style={{fontSize: "11px", backgroundColor: "#d1d1d1",width: "57px",}}>
-                      <img src={time} alt="time"className="me-1 my-1"
-                        style={{ fontSize: "11px", width: "11px", height: "11px" }}/>
-                      <span className="pt-1" style={{ fontSize: "9px" }}>11 mins</span>
+                <div
+                  className="col-6 col-sm-4 col-md-3 col-lg-2"
+                  key={prod.id}
+                >
+                  <Card className="product-card">
+                    <Card.Img
+                      variant="top"
+                      src={prod.image}
+                      alt="img"
+                      className="product-img"
+                    />
+
+                    <div className="time-tag text-muted d-flex mb-2 fw-bold rounded-2">
+                      <img
+                        src={time}
+                        alt="time"
+                        className="me-1 my-1"
+                        style={{ width: "11px", height: "11px" }}
+                      />
+                      <span className="pt-1">11 mins</span>
                     </div>
+
                     <Card.Body className="p-0 d-flex flex-column justify-content-between">
                       <div>
-                        <Card.Title as="h6" className="mb-2 fw-semibold"
-                          style={{ fontSize: "13px", height: "36px" }} >{prod.title}</Card.Title>
-                          <small style={{ fontSize: "12px" }}>{prod.amount}</small>
+                        <Card.Title as="h6" className="mb-2 fw-semibold title">
+                          {prod.title}
+                        </Card.Title>
+                        <small className="amount">{prod.amount}</small>
                       </div>
+
                       <div>
-                        <div className="fw-bold mt-2"
-                         style={{ fontSize: "13px" }}>₹{prod.price}</div>
-                        <div className="d-flex mt-2 gap-2">
-                          <Button variant="outline-success"size="sm"onClick={() => handleEdit(prod.id)}>
-                            <TbEdit /></Button>
-                          <Button variant="outline-success"size="sm" onClick={() => handleDelete(prod.id)}>
-                            <AiOutlineDelete /></Button>
-                          <Link  to={`/product/${prod.id}`} className="btn btn-outline-success btn-sm">
-                           <GrView />
+                        <div className="fw-bold mt-2 price">
+                          ₹{prod.price}
+                        </div>
+                        <div className="action-buttons d-flex mt-2 gap-2">
+                          <Button
+                            variant="outline-success"
+                            size="sm"
+                            onClick={() => handleEdit(prod.id)}
+                          >
+                            <TbEdit />
+                          </Button>
+                          <Button
+                            variant="outline-success"
+                            size="sm"
+                            onClick={() => handleDelete(prod.id)}
+                          >
+                            <AiOutlineDelete />
+                          </Button>
+                          <Link
+                            to={`/product/${prod.id}`}
+                            className="btn btn-outline-success btn-sm"
+                          >
+                            <GrView />
                           </Link>
                         </div>
                       </div>
@@ -184,8 +233,8 @@ const Home = () => {
             )}
           </div>
 
-        
-          <div  variant="outline-success" className="d-flex justify-content-center mt-4 ">
+          {/* 📄 Pagination */}
+          <div className="d-flex justify-content-center mt-4 ">
             <ReactPaginate
               breakLabel="..."
               nextLabel="Next >"
