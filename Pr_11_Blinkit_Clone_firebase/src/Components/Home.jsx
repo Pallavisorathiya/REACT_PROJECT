@@ -102,7 +102,6 @@ const Home = () => {
           <StaticElem />
           <Categories />
 
-          {/* 🔍 Search + Sort */}
           <div className="d-flex flex-wrap gap-2 my-3 px-3 align-items-center justify-content-between">
             <Form
               className="flex-grow-1 me-1 ms-4"
@@ -126,8 +125,7 @@ const Home = () => {
                   className="border-0 ps-0"
                   style={{ background: "#f8f8f8" }}
                   value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                />
+                  onChange={(e) => setSearch(e.target.value)}  />
                 {search && (
                   <InputGroup.Text
                     className="bg-transparent border-0"
@@ -161,7 +159,6 @@ const Home = () => {
             </div>
           </div>
 
-          {/* 🛒 Product Cards */}
           <div className="row g-3 mt-3 w-100 mb-3 px-3">
             {currentItems.length > 0 ? (
               currentItems.map((prod) => (
@@ -233,7 +230,6 @@ const Home = () => {
             )}
           </div>
 
-          {/* 📄 Pagination */}
           <div className="d-flex justify-content-center mt-4 ">
             <ReactPaginate
               breakLabel="..."
