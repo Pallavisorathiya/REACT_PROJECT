@@ -1,6 +1,5 @@
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, setDoc, updateDoc } from 'firebase/firestore';
 import { db } from '../../firebaseConfig';
-import { db } from "./firebase";
 
 export const loading = () => ({ type: "LOADING" });
 
