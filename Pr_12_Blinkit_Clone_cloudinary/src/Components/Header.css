@@ -1,0 +1,38 @@
+.header {
+  height: 87px;
+    position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1050; 
+  height: 87px;
+  background-color: #fff;
+}
+
+.vertical-line {
+  width: 1px;
+  display: flex;
+  background-color: #f2f2f2ff;
+  height: 87px;
+}
+.button-header {
+  margin-left: -100px;
+  width: max-content !important;
+  text-align: center !important;
+  /* margin-left: 650px !important; */
+  background-color: #009900 !important;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none !important;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.button-header:hover {
+  background-color: #009900 !important;
+}

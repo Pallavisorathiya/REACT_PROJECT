@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "id": "023344",
+      "title": "Amul Gold Full Cream Milk",
+      "amount": "500 ml",
+      "desc": " Home / Milk / Amul Gold Full Cream Milk",
+      "price": "35",
+      "category": "Dairy & Bread",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/628c97e0-5ed4-425d-a667-1d3bfa6f0bde.png"
+    },
+    {
+      "id": "641374",
+      "title": "Amul Salted Butter",
+      "amount": "100 g",
+      "desc": "Home / Butter & More / Amul Salted Butter",
+      "price": "62",
+      "category": "Dairy & Bread",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/613787ac-f983-4cfb-b534-e219c8d47b39.png"
+    },
+    {
+      "id": "510647",
+      "title": "Amul Taaza Homogenised Toned Milk",
+      "amount": "1 l, 1 ltr",
+      "desc": "Home / Milk / Amul Taaza Homogenised Toned Milk\nAmul Taaza Toned (Tetrapak) Milk is pasteurized with great nutritional value. It can be consumed directly or can be used for preparing tea, coffee, sweets, khoya, curd, buttermilk, ghee etc.",
+      "price": "79",
+      "category": "Dairy & Bread",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9a4088cc-db19-4add-b3ce-2edd4d09f4ae.png"
+    },
+    {
+      "id": "333921",
+      "title": "Amul Cheese Cubes",
+      "amount": "200 g",
+      "desc": "Home / Cheese / Amul Cheese Cubes\nAdd yummy double cheese burst to all your dishes with Amul Cheese Cubes and enjoy the mouth-watering burst of flavours. The cheese is rich in protein and vitamins making it a healthy ingredient in all the dishes. A simple omelette will also taste amazing with these cubes of Amul cheese. The cube form of cheese makes it easier to use in the pizzas, fondues and other exotic dishes. The cubic can be used in a thousand ways, from party platter to grating it into the soup. The cheese lover has many options to include cheese in their diet.",
+      "price": "137",
+      "category": "Dairy & Bread",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/52377f0e-2ee1-4d3f-a0d6-f34934b71f0f.png"
+    },
+    {
+      "id": "695962",
+      "title": "Amul High Protein Probiotic Cup Curd",
+      "amount": "400 g",
+      "desc": "Home / Curd & Yogurt / Amul High Protein Probiotic Cup Curd",
+      "price": "70",
+      "category": "Dairy & Bread",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/c3bac93a-0cca-4e7d-b5c4-e8c2b5659aa4.png"
+    },
+    {
+      "id": "371962",
+      "title": "Amul Blend Diced Cheese",
+      "amount": "200 g",
+      "desc": "Home / Cheese / Amul Blend Diced Cheese\nDiced cheese.\nMozzarella and cheddar blend.\nPerfect for delicious pizza, patties, vegetable salad, soup and many more dishes.",
+      "price": "129",
+      "category": "Dairy & Bread",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+    },
+    {
+      "id": "506654",
+      "title": "Beetroot (Chukandar)",
+      "amount": "500 g -600 g, (500-600) g",
+      "desc": "Home / Fresh Vegetables / Beetroot (Chukandar)",
+      "price": "42",
+      "category": "Fruits & Vegetables",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/54f29f85-51ef-4f56-9d8a-e3c3fbb2109e.png"
+    },
+    {
+      "id": "299794",
+      "title": "Indian Royal Gala Apple - Medium",
+      "amount": "4 units, 4 pieces (400-500 g)",
+      "desc": "Home / Exotics / Indian Royal Gala Apple - Medium",
+      "price": "128",
+      "category": "Fruits & Vegetables",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/737d7df3-4927-4deb-a2d1-d76345b6251c.png"
+    },
+    {
+      "id": "658267",
+      "title": "Avocado Hass - Tanzania",
+      "amount": "1 pc (150-200 g), 1 piece (150-200 g)",
+      "desc": "Home / Exotics / Avocado Hass - Tanzania",
+      "price": "109",
+      "category": "Fruits & Vegetables",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/1f88e07e-0cda-431d-b5ac-bf62c33a864c.png"
+    },
+    {
+      "id": "207099",
+      "title": "Happilo 100% Natural Premium Californian Almonds",
+      "amount": "900 g",
+      "desc": "Home / Dry Fruits / Happilo 100% Natural Premium Californian Almonds",
+      "price": "951",
+      "category": "Grocery",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/0ee5d6b1-98d6-4e2b-91f9-ca98ed94a21a.png"
+    },
+    {
+      "id": "723856",
+      "title": "Ras Malai Gold Pure Kolhapuri Jaggery Cubes",
+      "amount": "800 g",
+      "desc": "Home / Salt, Sugar & Jaggery / Ras Malai Gold Pure Kolhapuri Jaggery Cubes\nProduct Details\nKey Features\nPure Kolhapuri Jaggery pieces\n100% natural and pure \nRich source of iron\nHealthier alternative to sugar\n",
+      "price": "99",
+      "category": "Grocery",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/e904229c-b2f1-431f-9c48-90718611b56a.png"
+    },
+    {
+      "id": "790514",
+      "title": "Doritos Sweet Chilli Flavour Nachos - Pack of 2",
+      "amount": "2 x 142 g",
+      "desc": "Home / Nachos / Doritos Sweet Chilli Flavour Nachos - Pack of 2\nFlavour\nSweet Chilli",
+      "price": "135",
+      "category": "Snacks & Branded Foods",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/2af96e56-2918-4549-b7e5-3ff0e218ac92.png"
+    },
+    {
+      "id": "237858",
+      "title": "Cornitos Cheese & Herbs Nachos",
+      "amount": "77 g",
+      "desc": "Home / Nachos / Cornitos Cheese & Herbs Nachos\nType\nChips & Crisps",
+      "price": "57",
+      "category": "Snacks & Branded Foods",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/be394781-0b48-417b-8afb-9db7a38f4132.png"
+    },
+    {
+      "id": "500908",
+      "title": "Coca-Cola Soft Drink (300 ml)",
+      "amount": "300 ml",
+      "desc": "Home / Soft Drinks / Coca-Cola Soft Drink (300 ml)\nFlavour\nCola",
+      "price": "40",
+      "category": "Beverages",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/0c9817d0-2643-4097-98b7-7059ba21e760.png"
+    },
+    {
+      "id": "436897",
+      "title": "Sprite Zero Soft Drink",
+      "amount": "300 ml",
+      "desc": "Home / Soft Drinks / Sprite Zero Soft Drink\nFlavour\nLemon",
+      "price": "40",
+      "category": "Beverages",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/cb7c0816-c31d-4d86-b629-05c8cdd7c1c1.png"
+    },
+    {
+      "id": "368104",
+      "title": "Vanish Oxi Action Fabric Stain Remover (800 ml) - Pack of 2",
+      "amount": "2 x 800 ml",
+      "desc": "Home / Fabric Conditioner & Additives / Vanish Oxi Action Fabric Stain Remover (800 ml) -",
+      "price": "468",
+      "category": "Household Needs",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/46f32d1d-1929-49c6-a594-f1a7b13eedde.png"
+    },
+    {
+      "id": "043544",
+      "title": "Airwick Freshmatic Autospray Air Freshener Kit (Lavender & Lotus)",
+      "amount": "1 pack",
+      "desc": "Home / Fresheners / Airwick Freshmatic Autospray Air Freshener Kit (Lavender & Lotus)\nBox Contents\n1N Freshmatic Device\n1N Aerosol Refill (250 ml)\n1N Alkaline Battery",
+      "price": "384",
+      "category": "Household Needs",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/fa2bca3e-fad0-43a2-8e96-ce6f49e730ae.png"
+    },
+    {
+      "id": "270224",
+      "title": "Premium Scented Diffuser Set (Oudh) by Auradecor",
+      "amount": "1 unit",
+      "desc": "Home / Home Decor / Premium Scented Diffuser Set (Oudh) by Auradecor\nBox Contents\nDiffuser Reed Oil - 50 ml\nReed Sticks x 6",
+      "price": "322",
+      "category": "Home & Kitchen",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/7774d135-8bed-4ef0-ae36-97a48d3863a0.png"
+    },
+    {
+      "id": "303481",
+      "title": "Kissan Fresh Tomato Ketchup",
+      "amount": "1.1 kg",
+      "desc": "Home / Tomato & Chilli Ketchup / Kissan Fresh Tomato Ketchup\nType\nTomato Ketchup",
+      "price": "106",
+      "category": "Home & Kitchen",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/ae5c2abf-e3c9-4cbc-9cc1-f10fbf709a09.png"
+    },
+    {
+      "id": "010666",
+      "title": "Nutella Hazelnut Chocolate Spread with Cocoa - 350 g",
+      "amount": "350 g",
+      "desc": "Home / Jam & Spreads / Nutella Hazelnut Chocolate Spread with Cocoa - 350 g\nFlavour\nHazelnut & Cocoa\n",
+      "price": "399",
+      "category": "Home & Kitchen",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/8f4455e0-b2de-4563-920e-57ef5dd5ae92.png"
+    },
+    {
+      "id": "325916",
+      "title": "Dot & Key 72 HR Hydrating + Probiotics Moisturizing Gel",
+      "amount": "60 ml",
+      "desc": "Home / Face & Body Moisturizers / Dot & Key 72 HR Hydrating + Probiotics Moisturizing Gel\n",
+      "price": "436",
+      "category": "Personal Care",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/b98275b4-323e-45d6-a6ee-54b5034eb0f7.png"
+    },
+    {
+      "id": "601389",
+      "title": "Cozy Nose Better Breathe Nasal Strips",
+      "amount": "1 pack (10 pieces)",
+      "desc": "Home / Healthcare Devices / Cozy Nose Better Breathe Nasal Strips\nUnit\n1 pack (10 pieces)",
+      "price": "388",
+      "category": "Medicines & Wellness",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/a97920c9-169a-4b9d-9944-e6da4763371e.png"
+    },
+    {
+      "id": "216150",
+      "title": "Button Mushroom",
+      "amount": "180 g - 200 g, (180-200) g",
+      "desc": "Home / Fresh Vegetables / Button Mushroom\nUnit\n180 g - 200 g",
+      "price": "56",
+      "category": "Fruits & Vegetables",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9bc0b3fd-3aac-4f5f-a8f7-0c0b63cef1bb.png"
+    },
+    {
+      "id": "161256",
+      "title": "Sensational Aroma Gift Set (Lavender) by Ekam",
+      "amount": "1 pack (5 pieces)",
+      "desc": "Home / Home Decor / Sensational Aroma Gift Set (Lavender) by Ekam\nBox Contents\nScented Candle x 1\nLavender & Sandalwood Potpourri - 100 g\nLavender Reed Diffuser - 60 ml\nLavender & Sandalwood Potpourri Spray - 8 ml\nReed Sticks x 6",
+      "price": "1499",
+      "category": "Household Needs",
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/ce8f4d1a-2a67-4c6d-bdd4-1c5d1411d982.png"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+
+.title {
+  font-size: 13px;
+  height: 36px;
+  margin-bottom: 4px;   
+}
+
+.amount {
+  font-size: 12px;
+  color: #555;
+}
+
+.short-button{
+    background-color: #009900;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.short-button:hover {
+    background-color: #007700;
+}
+.pagination {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .page-item {
+  border-radius: 8px;
+  overflow: hidden;
+   border: 1px solid #009900aa;
+}
+.pagination .page-link {
+  color: #009900aa;
+  border: 1px solid #009900aa;
+  padding: 6px 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.pagination .page-link:hover {
+  background-color: #009900aa;
+  color: white;
+  border-color: #009900aa;
+  box-shadow: 0px 2px 5px rgba(0, 153, 0, 0.3);
+}
+.pagination .active .page-link {
+  background-color: #009900aa;
+  color: white;
+  border-color: #009900aa;
+  font-weight: bold;
+  box-shadow: 0px 3px 6px rgba(0, 153, 0, 0.4);
+}
+.pagination .page-item.disabled .page-link {
+  color: #ccc;
+  border-color: #ccc;
+  background-color: #f8f8f8;
+  border: 1px solid #009900aa ;
+}
+
+.product-card {
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  height: 340px;
+  box-shadow: #0000000a 2px 2px 8px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.product-img {
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+.title {
+  font-size: 13px;
+  height: 36px;
+}
+.amount {
+  font-size: 12px;
+}
+.price {
+  font-size: 13px;
+}
+
+
+.time-tag {
+  font-size: 9px;
+  background-color: #d1d1d1;
+  width: 57px;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+.action-buttons {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+
+.product-card:hover .action-buttons {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.action-buttons .btn {
+  transition: 0.2s;
+}
+.action-buttons .btn:hover {
+  transform: scale(1.1);
+}

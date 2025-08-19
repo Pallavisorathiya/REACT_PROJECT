@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.header {
+  height: 87px;
+}
+
+.vertical-line {
+  width: 1px;
+  display: flex;
+  background-color: #f2f2f2ff;
+  height: 87px;
+}
+
+
+
+/* Address & Time */
+.text-address {
+  font-size: 14px;
+  color: black;
+}
+
+/* Search */
+
+.input-group {
+  border-radius: 13px !important;
+  border: #0000000a 1px solid !important;
+  padding: 5px 0;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+
+}
+
+.form-control {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.search:hover , .clear:hover{
+  color:green !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.add-btn:hover {
+  background-color: green !important;
+  color: white !important;
+  transition: all 0.5s ease-in-out !important;
+  border: none !important;
+}
+
+/* Loader */
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.submit-add,
+.submit-edit {
+  color: white !important;
+  background-color: green !important;
+  border: 1px solid green !important;
+  font-weight: 600;
+
+}
+
+.submit-add:hover,
+.submit-edit:hover {
+  color: green !important;
+  background-color: white !important;
+  transition: all 0.5s ease-in-out !important;
+}
