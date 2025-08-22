@@ -1,0 +1,128 @@
+/* Container center alignment */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+/* Card styling */
+.auth-card {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Logo styling */
+.auth-logo {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+/* Title and subtitle */
+.auth-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.auth-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Form controls */
+.auth-form .form-control {
+  height: 48px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+/* Primary button */
+.auth-btn {
+  background-color: #f7c325;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.auth-btn:disabled {
+  opacity: 0.7;
+}
+
+/* Divider with OR */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.auth-divider:not(:empty)::before {
+  margin-right: 10px;
+}
+.auth-divider:not(:empty)::after {
+  margin-left: 10px;
+}
+
+/* Google button */
+.google-btn {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+/* Footer link */
+.auth-footer {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-footer a {
+  color: #f7c325;
+  text-decoration: none;
+  font-weight: 600;
+}
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 20px 15px;
+    width: 95%;
+  }
+
+  .auth-title {
+    font-size: 18px;
+  }
+
+  .auth-subtitle {
+    font-size: 13px;
+  }
+}
