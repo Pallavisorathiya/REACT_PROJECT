@@ -1,0 +1,50 @@
+/* Avatar fixed sizing + gradient like header */
+.profile-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #22c55e, #0ea5e9);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(34,197,94,.25);
+}
+
+.profile-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.profile-avatar-initial {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 1;
+}
+
+/* badges + fields (already similar, kept here for completeness) */
+.soft-badge {
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+.profile-field {
+  background: #fff;
+  border: 1px solid #eef2f7;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+}
+
+.field-label {
+  min-width: 120px;
+  color: #475569;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.field-value { color: #111827; }

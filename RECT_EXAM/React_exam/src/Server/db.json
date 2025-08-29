@@ -1,0 +1,147 @@
+{
+  "students": [
+    {
+      "id": "808787",
+      "fullName": "Niya mehta",
+      "dob": "2025-08-10",
+      "age": "13",
+      "gender": "Female",
+      "email": "niya@gmail.com",
+      "phone": "1234567890",
+      "course": "bca",
+      "rollNo": "12",
+      "address": "Surat",
+      "image": "https://thumbs.dreamstime.com/b/child-girl-schoolgirl-elementary-school-student-123686003.jpg"
+    },
+    {
+      "id": "303267",
+      "fullName": "Rahul sharma",
+      "dob": "2020-06-09",
+      "age": "14",
+      "gender": "Male",
+      "email": "Rahul@gmail.com",
+      "phone": "1234567890",
+      "course": "B com",
+      "rollNo": "154",
+      "address": "Mubai",
+      "image": "https://media.istockphoto.com/id/1438969575/photo/smiling-young-male-college-student-wearing-headphones-standing-in-a-classroom.jpg?s=612x612&w=0&k=20&c=yNawJP9JGXU6LOL262ME5M1U2xxNKQsvT7F9DZhZCh4="
+    },
+    {
+      "id": "681961",
+      "fullName": "Zinta Patel",
+      "dob": "2010-07-02",
+      "age": "15",
+      "gender": "Female",
+      "email": "zinta12@gmail.com",
+      "phone": "0987654321",
+      "course": " 12 Com",
+      "rollNo": "98",
+      "address": "UK",
+      "image": "https://img.freepik.com/free-photo/portrait-young-student-happy-be-back-university_23-2148586577.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+      "id": "697213",
+      "fullName": "Rahul verma",
+      "dob": "2025-08-01",
+      "age": "38",
+      "gender": "Male",
+      "email": "rahul@gmail.com",
+      "phone": "0987654321",
+      "course": "MSC",
+      "rollNo": "34",
+      "address": "USA",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/026/911/382/small_2x/happy-student-boy-with-books-isolated-free-photo.jpg"
+    },
+    {
+      "id": "655256",
+      "fullName": "Krishna sharma",
+      "dob": "2025-08-10",
+      "age": "22",
+      "gender": "Male",
+      "email": "krish@tesrt.in",
+      "phone": "1234567890",
+      "course": "Bca",
+      "rollNo": "12",
+      "address": "surat",
+      "image": "https://plus.unsplash.com/premium_photo-1682091992663-2e4f4a5534ba?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFsZSUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "032958",
+      "fullName": "rudra parmar",
+      "dob": "2025-08-16",
+      "age": "19",
+      "gender": "Male",
+      "email": "rudra@test.in",
+      "phone": "1234567890",
+      "course": "12 com",
+      "rollNo": "45",
+      "address": "surat",
+      "image": "https://media.gettyimages.com/id/1336832660/photo/male-teenage-student-in-yellow-background-stock-photo.jpg?s=612x612&w=gi&k=20&c=axC7-4wp2tcV2kZChENGjoenwbhzVmg3ZCV_kdzxfPw="
+    },
+    {
+      "id": "864821",
+      "fullName": "meera sharma",
+      "dob": "2025-08-23",
+      "age": "23",
+      "gender": "Female",
+      "email": "meera@gmail.com",
+      "phone": "1234567890",
+      "course": "Bca",
+      "rollNo": "14",
+      "address": "Mubai",
+      "image": "https://i.pinimg.com/474x/c0/28/d8/c028d83e001aaf922a211b5804b0cdac.jpg"
+    },
+    {
+      "id": "941500",
+      "fullName": "Mishika Patel",
+      "dob": "2024-11-23",
+      "age": "23",
+      "gender": "Female",
+      "email": "Mishi@gmail.com",
+      "phone": "1234567890",
+      "course": "Bcom",
+      "rollNo": "45",
+      "address": "Mubai",
+      "image": "https://images.unsplash.com/photo-1618355776464-8666794d2520?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhZHVhdGUlMjBzdHVkZW50fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "281543",
+      "fullName": "Shivansh Parmar",
+      "dob": "2025-08-13",
+      "age": "13",
+      "gender": "Male",
+      "email": "Shivansh@test.in",
+      "phone": "1234567890",
+      "course": "Bca",
+      "rollNo": "23",
+      "address": "Pune",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/033/837/660/small/happy-school-pupil-asian-boy-in-glasses-on-isolated-on-studio-background-with-copy-space-back-to-school-ai-generative-photo.jpeg"
+    }
+  ],
+  "users": [
+    {
+      "id": "77dd",
+      "name": "aaa",
+      "email": "test12@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "b41f",
+      "name": "nn",
+      "email": "test34@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "5dc1",
+      "name": "ppp",
+      "email": "test@123",
+      "password": "1234567"
+    },
+    {
+      "id": "4d66",
+      "name": "aa",
+      "email": "test@gmail.com",
+      "password": "1234567"
+    }
+  ]
+}

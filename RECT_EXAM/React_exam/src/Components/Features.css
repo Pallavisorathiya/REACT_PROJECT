@@ -1,0 +1,94 @@
+/* Section Full Width */
+.features-section {
+  width: 100%;
+  padding: 60px 50px;
+  background-color: #fff;
+}
+
+/* Heading */
+.features-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  max-width: 950px;
+  margin: 0 auto 50px;
+  line-height: 1.4;
+}
+
+.features-title span {
+  color: #2e3a59;
+}
+
+/* Row Custom Width Control */
+.features-row {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Feature Card */
+.feature-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  cursor: pointer;
+  height: 100%;
+}
+
+/* Hover Effect */
+.feature-card:hover {
+  transform: translateY(-8px);
+  border-color: #5bbf1c;
+  box-shadow: 0 6px 18px rgba(91, 191, 28, 0.25);
+}
+
+/* Icon */
+.feature-icon {
+  height: 55px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.feature-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+/* Description */
+.feature-desc {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .features-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .features-section {
+    padding: 40px 20px;
+  }
+  .feature-card {
+    padding: 25px 18px;
+  }
+  .feature-title {
+    font-size: 18px;
+  }
+  .feature-desc {
+    font-size: 14px;
+  }
+}

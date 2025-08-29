@@ -1,0 +1,96 @@
+/* src/Pages/AddStudent.css */
+
+.add-student-container {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-student-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+.add-student-container h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 15px;
+}
+
+.form-control,
+.form-select {
+  width: 600px;
+  border-radius: 12px;
+  padding: 10px 14px;
+  border: 1px solid #dcdcdc;
+  font-size: 15px;
+  transition: all 0.25s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 6px rgba(52, 152, 219, 0.4);
+}
+
+textarea.form-control {
+  width: 500px;
+  resize: none;
+}
+
+button[type="submit"] {
+  font-size: 40px;
+  width: 800px;
+  background: linear-gradient(135deg, #3498db, #2ecc71);
+  border: none;
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  display: block;
+  margin: 25px auto 0;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(135deg, #2ecc71, #3498db);
+  /* transform: scale(1); */
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.text-danger {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .add-student-container {
+    padding: 25px 20px;
+  }
+
+  .add-student-container h1 {
+    font-size: 24px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+}
